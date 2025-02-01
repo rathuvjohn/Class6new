@@ -88,7 +88,7 @@ pipeline {
             echo 'Terraform deployment failed!'
         }
     }
-}' 
+}
             }
         }
         stage('Initialize Terraform') {
