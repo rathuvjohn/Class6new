@@ -19,7 +19,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/rathuvjohn/Class6new.git' {
+                git branch: 'main', url: 'https://github.com/rathuvjohn/Class6new.git' 
     agent any
     environment {
         AWS_REGION = 'eu-west-1' 
