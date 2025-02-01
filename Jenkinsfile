@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        AWS_REGION = 'us-east-1' 
+        AWS_REGION = 'eu-west-1' 
     }
     stages {
         stage('Set AWS Credentials') {
@@ -22,7 +22,7 @@ pipeline {
                 git branch: 'main', url: 'https://github.com/rathuvjohn/Class6new.git' {
     agent any
     environment {
-        AWS_REGION = 'us-east-1' 
+        AWS_REGION = 'eu-west-1' 
     }
     stages {
         stage('Set AWS Credentials') {
