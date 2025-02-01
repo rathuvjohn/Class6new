@@ -40,7 +40,7 @@ pipeline {
         }
         stage('Checkout Code') {
             steps {
-                git branch: 'main', url: 'https://github.com/derrickSh43/autoScale' 
+                git branch: 'main', url: 'https://github.com/rathuvjohn/Class6new.git' 
             }
         }
         stage('Initialize Terraform') {
